@@ -1,4 +1,4 @@
-# Lab 2 - Starter
+# Lab 3
 
-Github Link: https://brianliu1412.github.io/cse110-lab2/
+Github Link: https://brianliu1412.github.io/sp23-cse110-lab3/
 
