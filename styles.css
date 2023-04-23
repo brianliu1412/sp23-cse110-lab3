@@ -1,0 +1,134 @@
+/* Stylesheet for Lab3! */
+
+* {
+  color: black;
+}
+h1 {
+  color: rgb(124, 150, 171);
+  background-color: whitesmoke;
+  transition: 1s;
+}
+
+h1:hover {
+  color: rgb(200, 170, 180);
+  
+}
+h2 {
+  color: #BFCCB5;
+
+}
+h3 {
+  color: hsl(2, 42, 23);
+}
+p {
+  color: black
+}
+
+img {
+  width: 60vw;
+  height: auto;
+  max-width: 800px;
+  max-height: auto;
+  display: inline;
+  position: relative;
+
+}
+
+[class=cont] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+
+}
+
+#header {
+  text-align: center; 
+}
+
+#teamname {
+  margin: 0px 400px 0px 400px;
+}
+#header h3 {
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 12vb;
+  margin-right: 12vb;
+}
+
+#header > h1 {
+  margin: auto;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  padding: 1em 1em 1em 1em;
+
+
+}
+#agenda {
+  position: sticky;
+  
+}
+.agenda-list {
+  padding-left: 8em;
+  padding-top: 2em;
+  padding-right: 10em;
+  padding-bottom: 2em;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: line-through;
+}
+
+#one, #two, #three {
+  color: pink;
+}
+
+#one ~ #two {
+  font-size: 1.2rem;
+}
+
+#two + #three {
+  line-height: 2rem;
+}
+
+li.list-three {
+  font-size: 2rem;
+  
+}
+
+#footer {
+  display: none;
+}
+
+button {
+  width: 20vw;
+  height: 6vw;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10rem;
+}
+
+button:active {
+  box-shadow: 2px 2px 5px #242424;
+
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.75rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+}
