@@ -4,20 +4,21 @@
     <title>Meeting Minutes</title>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="/media/capybara.png">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
-      <header>
+    <main class="cont">
+      <header id="header">
         <img src="https://static.dw.com/image/60903312_605.jpg" alt="Group Mascot, Pterodactyl"></img>
         <H1>Pear Technologies</H1>
-        <h2>Team (P)Terodactyl</h2>
-        <h3>Monday, April 32, 2022</h3>
+        <h2 id="teamname">Team (P)Terodactyl</h2>
+        <h3 class>Monday, April 32, 2022</h3>
       </header>
       <nav>
         <a href="/">Home</a>
       </nav>
 
-      <section>
+      <section class="section-1">
         <h4>First up</h4>
         <span>
           People absent:
@@ -29,8 +30,8 @@
         <div>
           <p>Desc: We will discuss our recent design changes for the P-Phone 15 Pro. We will discuss the removal of the power button and the cameras.</p>
         </div>
-        <h2>Agenda:</h2>
-        <ol>
+        <h2 id="agenda">Agenda:</h2>
+        <ol class="agenda-list">
           <li>P-Phone 15 Pro Design/li>
           <li>Whackbook Pro screen recall</li>
           <li>Pear TV discontinuation</li>
@@ -62,9 +63,9 @@
         <details>
           <summary>Agenda for next meeting:</summary>
           <ul>
-            <li>Fire employees</li>
-            <li>Get therapy dogs</li>
-            <li>Onboard new members</li>
+            <li id="one">Fire employees</li>
+            <li id="two">Get therapy dogs</li>
+            <li class="list-three" id="three">Onboard new members</li>
           </ul>
         </details>
       </section>
@@ -92,7 +93,7 @@
     </datalist>
     <br>
     <br>
-    <label for="food">Choose tomorrow's lunch</label>
+    <label for="food" style="border: 2px dotted green;">Choose tomorrow's lunch</label>
     <select name="food" id="food">
       <option>Burger</option>
       <option>Hotdog</option>
@@ -100,6 +101,6 @@
       <option>Salad</option>
     </select>
     <br>
-    <footer>Team Powell Rangers</footer>
+    <footer id="footer">Team Powell Rangers</footer>
   </body>
 </html>
