@@ -1,6 +1,10 @@
 /* Stylesheet for Lab3! */
-
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Medium.ttf);
+}
 * {
+  font-family: Poppins;
   color: black;
 }
 h1 {
